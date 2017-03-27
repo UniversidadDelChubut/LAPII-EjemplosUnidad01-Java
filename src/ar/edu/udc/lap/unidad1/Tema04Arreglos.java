@@ -5,7 +5,7 @@ package ar.edu.udc.lap.unidad1;
  * 
  * @see https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
  */
-public class Tema03ArraysYBucles {
+public class Tema04Arreglos {
 
 	public static void main(String[] args) {
 
@@ -39,41 +39,10 @@ public class Tema03ArraysYBucles {
 		
 
 		int[] fibonacci = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 };
-		/* Ejercicio escriba una rutuna que, dado un número entero, escriba la sucesión de fibonacci de ese órden */
+		/* Ejercicio escriba una rutina que, dado un número entero, escriba la sucesión de fibonacci de ese orden */
 		
-
-		/*
-		while(true)
-			;
-		*/
 		
-		/*
-		int i = 0;
 		
-		while(i< 10){
-			System.out.println(i);
-			i++;
-		}*/
-		
-		/*
-		int i = 0;
-		
-		do {
-			System.out.println(i);
-			i++;
-		} while (i< 10);
-		*/
-		
-		int i = 0;
-		
-		do
-			System.out.println(i++);	
-		while (i< 10);
-				
-		/*
-		for (int i = 0; i < 10 ; i++){
-			System.out.println(i);
-		}*/
 		
 	}
 
