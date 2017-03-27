@@ -19,8 +19,7 @@ public class Tema02Operadores {
 
 			// .. ¿de qué depende que sea uno u otro?
 
-			// fin = true; // Vamos cambiando el valor de fin para poder
-			// imprimier el próximo ejemplo
+			fin = true; // Vamos cambiando el valor de fin para poder imprimir el próximo ejemplo
 			if (fin)
 				break;
 
@@ -31,13 +30,12 @@ public class Tema02Operadores {
 			System.out.println(" 2 - 5  = " + (2 - 5));
 			System.out.println(" 3 * 5  = " + (3 * 5));
 			System.out.println(" 9 / 2  = " + (9 / 2));
-			// ¿Acá que pasará?
-			// System.out.println(" 9 / 2 = " + (9f / 2f) );
+			// System.out.println(" 10 / 3 = " + (10 / tresEntero) );
+			// System.out.println(" 10 / 3 = " + (10 / tresFlotante) );
 			// ¿Acá que pasará?
 			// System.out.println(" 9 / 2 = " + (9f / 2) );
 
-			// fin = true; // Vamos cambiando el valor de fin para poder
-			// imprimier el próximo ejemplo
+			fin = true; // Vamos cambiando el valor de fin para poder imprimir el próximo ejemplo
 			if (fin)
 				break;
 
@@ -55,8 +53,7 @@ public class Tema02Operadores {
 			// a = 9;
 			// System.out.println(" " + (--(--a)));
 
-			// fin = true; // Vamos cambiando el valor de fin para poder
-			// imprimier el próximo ejemplo
+			fin = true; // Vamos cambiando el valor de fin para poder imprimir el próximo ejemplo
 			if (fin)
 				break;
 
