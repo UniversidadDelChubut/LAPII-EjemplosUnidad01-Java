@@ -1,11 +1,11 @@
-package ar.edu.udc.lap.unidad1.t01tiposdedatos;
+package ar.edu.udc.lap.unidad1;
 
 /**
  * Ejemplos de arrays y estructuras repetitivas.
  * 
  * @see https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
  */
-public class ArraysYBucles {
+public class Tema03ArraysYBucles {
 
 	public static void main(String[] args) {
 

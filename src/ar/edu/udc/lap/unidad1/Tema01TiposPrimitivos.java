@@ -1,4 +1,4 @@
-package ar.edu.udc.lap.unidad1.t01tiposdedatos;
+package ar.edu.udc.lap.unidad1;
 
 /**
  * Ejemplos de declaraciones y asignaciones de tipos primitivos.
@@ -6,7 +6,7 @@ package ar.edu.udc.lap.unidad1.t01tiposdedatos;
  * @author Santiago Della Torre
  *
  */
-public class TiposPrimitivos {
+public class Tema01TiposPrimitivos {
 	
 	public static void main(String[] args) {
 		
