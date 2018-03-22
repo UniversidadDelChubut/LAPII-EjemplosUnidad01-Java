@@ -22,15 +22,16 @@ public class EncuestaTrabajador {
 	private void apagarBit(int mascaraBits){
 		banderasBooleanas = banderasBooleanas & ~mascaraBits;
 	}
-	
+	/*
 	public static void main(String[] args) {
+		
 		EncuestaTrabajador encuesta = new EncuestaTrabajador("Alberto");
 		encuesta.encenderBit(TIENE_EXPERIENCIA);
 		encuesta.encenderBit(TIENE_FAMILIA);
 		encuesta.encenderBit(TIENE_MOVILIDAD);
 		encuesta.apagarBit(TIENE_FAMILIA);
 		System.out.println(encuesta);
-	}
+	}*/
 	
 	@Override
 	public String toString() {
@@ -43,8 +44,28 @@ public class EncuestaTrabajador {
 		return 0 < (this.banderasBooleanas & bit);
 	}
 	
+	
+	
+	
+	
+	
 	public boolean tieneFamilia() {
 		return this.isBitEncendido(TIENE_FAMILIA);
+	}
+	
+	private void setGenerico (boolean valor, int mascara){
+		if (valor)
+			this.encenderBit(mascara);
+		else
+			this.apagarBit(mascara);
+		
+	}
+	
+	public void setTieneFamilia(boolean tieneFamilia){
+		setGenerico(tieneFamilia, TIENE_FAMILIA);
+	}
+	public void setTieneExperiencia(boolean tieneExperiencia){
+		setGenerico(tieneExperiencia, TIENE_EXPERIENCIA);
 	}
 	
 }
