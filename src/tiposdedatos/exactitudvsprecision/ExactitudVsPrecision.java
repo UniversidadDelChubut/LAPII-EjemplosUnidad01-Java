@@ -1,7 +1,6 @@
 package tiposdedatos.exactitudvsprecision;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 public class ExactitudVsPrecision {
 
@@ -17,13 +16,12 @@ public class ExactitudVsPrecision {
 		System.out.println("Con double " + x);
 
 		BigDecimal bd =  null;
-		/*
+		
 		bd = new BigDecimal(0.1);
 		bd = bd.add(new BigDecimal(0.1));
 		bd = bd.add(new BigDecimal(0.1));
 		bd = bd.subtract(new BigDecimal(0.3));
 		System.out.println("Con bigdecimal y double " + bd.doubleValue());
-		*/
 		
 		bd = new BigDecimal("0.1");
 		bd = bd.add(new BigDecimal("0.1"));
