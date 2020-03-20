@@ -71,7 +71,7 @@ public class Tema01TiposPrimitivos {
 		System.out.println("En la tierra hay " + habitantesDeLaTierra + " habitantes");
 		System.out.printf("En la tierra hay %d habitantes\n", habitantesDeLaTierra);
 		System.out.printf("En la tierra hay %,d habitantes\n", habitantesDeLaTierra);
-		/* Es aconsejable usar salida con 
+		/* Es aconsejable usar salida con formato
 		 * Referencia rápida printf 
 		 * http://web.cerritos.edu/jwilson/SitePages/java_language_resources/Java_printf_method_quick_reference.pdf 
 		 */

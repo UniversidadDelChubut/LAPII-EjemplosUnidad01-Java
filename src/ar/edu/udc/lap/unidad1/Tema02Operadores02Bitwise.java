@@ -1,6 +1,6 @@
 package ar.edu.udc.lap.unidad1;
 
-public class Tema01TiposPrimitivos02Bitwise {
+public class Tema02Operadores02Bitwise {
 	
 	public static void main(String[] args) {
 		
