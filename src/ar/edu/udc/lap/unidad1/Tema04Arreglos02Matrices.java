@@ -24,12 +24,32 @@ public class Tema04Arreglos02Matrices {
 		}	
 		System.out.println();
 		
-		for (int[]fila: b) {  //número de filas
-		     for (int v: fila) { //número de columnas de cada fila
+		for (int[]fila: b) { 
+		     for (int v: fila) { 
 		          System.out.print(v + " ");
 		     }
 		     System.out.println();
 		}	
+		System.out.println();
+		
+		int [][] c = new int[3][];
+		c[0] = new int[1];
+		c[1] = new int[2];
+		c[2] = new int[3];
+		c[0][0]=1;
+		c[1][0]=1;
+		c[1][1]=1;
+		c[2][0]=1;
+		c[2][1]=2;
+		c[2][2]=1;
+		
+		for (int[]fila: c) {  
+		     for (int v: fila) { 
+		          System.out.print(v + " ");
+		     }
+		     System.out.println();
+		}	
+		
 		
 	}
 	
